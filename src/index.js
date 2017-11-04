@@ -189,6 +189,9 @@ class CRUDTable extends React.Component {
 
   submitData(e){
     e.preventDefault();
+    this.setState({
+      showForm:false
+    })
     this.props.editFunc(this.state.id,this.state.name,this.state.address,this.state.abbrev,this.props.rows);
   }
 
