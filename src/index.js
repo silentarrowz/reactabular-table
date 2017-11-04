@@ -209,11 +209,11 @@ class CRUDTable extends React.Component {
 
           <tbody>
             <tr>
-              <td><button type="button" onClick={e => {
+             {/* <td><button type="button" onClick={e => {
                 e.preventDefault();
 
                 this.props.createRow();
-              }}>Add new</button></td>
+              }}>Add new</button></td> */}
               <td></td>
               <td></td>
               <td></td>
